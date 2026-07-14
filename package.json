@@ -1,0 +1,11 @@
+{
+  "name": "cloudflare-try",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "publish:pages": "wrangler pages publish . --project-name=cloudflare-try"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
